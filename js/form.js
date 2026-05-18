@@ -41,3 +41,12 @@ function Enviar(valor) {
     }, { once: true })
 
 };
+
+//depois de enviar os dados, mostrar só no console.log e não continuar na página
+const formulario = document.getElementById('meuFormulario');
+
+formulario.addEventListener('submit', function (evento) {
+    evento.preventDefault();
+
+    formulario.reset();
+});

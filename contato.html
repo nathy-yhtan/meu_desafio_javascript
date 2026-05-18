@@ -38,20 +38,20 @@
             </div>
             <div>
                 <h2 class="titulo">Sobre Você</h2>
-            <form onsubmit="Post(this);">
+                <form onsubmit="Post(this);" id="meuFormulario">
                     <input type="text" name="nome" placeholder="NOME*" id="nomeid" class="fordform" required>
                     <input type="text" name="sobrenome" placeholder="SOBRENOME*" class="fordform" required>
-                <input type="text" name="cpf" placeholder="CPF*" class="fordform" required>
-                <input type="text" name="email" placeholder="E-MAIL*" class="fordform" required>
+                    <input type="text" name="cpf" placeholder="CPF*" class="fordform" required>
+                    <input type="text" name="email" placeholder="E-MAIL*" class="fordform" required>
                     <input type="text" name="telefone" placeholder="TELEFONE*" class="fordform" required>
-                <input type="text" name="mensagem" placeholder="MENSAGEM*" class="fordform" required>
+                    <input type="text" name="mensagem" placeholder="MENSAGEM*" class="fordform" required>
                     <select name="contato" class="fordform" required>
-                    <option value="" disabled selected>TIPO DO CONTATO*</option>
-                    <option>ELOGIO</option>
-                    <option>RECLAMAÇÃO</option>
-                    <option>SOLICITAÇÃO</option>
+                        <option value="" disabled selected>TIPO DO CONTATO*</option>
+                        <option>ELOGIO</option>
+                        <option>RECLAMAÇÃO</option>
+                        <option>SOLICITAÇÃO</option>
                     </select>
-            <button type="submit" id="botao">Enviar</button>
+                    <button type="submit" id="botao">Enviar</button>
                 </form>
             </div>
         </div>
