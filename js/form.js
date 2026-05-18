@@ -1,6 +1,5 @@
 
-//class contato ! TEM QUE TER
-//class pq ela simula um objeto
+//class contato TEM QUE TER (existe pq simula um odjeto)
 class contato {
 
     constructor(nome, sobrenome, cpf, email, telefone, mensagem, contato) {

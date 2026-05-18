@@ -111,7 +111,9 @@ footer div {
 
 button:hover {
     background: #1b357e;
+    transform: scale(1.05);
 }
+
 button {
     background: #1351d8;
     color: #fff;
