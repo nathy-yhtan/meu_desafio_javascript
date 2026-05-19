@@ -1,14 +1,21 @@
-
-
-//carousel
-
-//Array storage class
+//Array storage class ARRAY VEM PRA CA PELO PUSH (trazer conteudos para implementar dentro da class pra transformar em objeto)
 let carouselArr = [];
 
-
 //class Carousel
-class Carousel {
+class Carousel { //construtor é dentro da classe
 
+    constructor(imagem, texto, link) { //sera q ta certo?
+        this.imagem = imagem
+        this.texto = texto
+        this.link = link
+    }
+
+
+
+
+
+
+    
 
 
     static Start(arr) {
@@ -26,6 +33,7 @@ class Carousel {
         }
     }
 
+    //chamar os parametros nessa função, chamar div pelo ID
     static Next() {
 
     }
